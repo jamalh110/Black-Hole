@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC54DC6F1CFE50B600AB54B7 /* section.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54DC6E1CFE50B600AB54B7 /* section.swift */; };
+		AC54DC711CFE810400AB54B7 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54DC701CFE810400AB54B7 /* Board.swift */; };
+		AC5EE8961D4EBC8A0078F71F /* HowToPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5EE8951D4EBC8A0078F71F /* HowToPlayViewController.swift */; };
+		AC78FBF51D1F08C500FD5EED /* sectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78FBF41D1F08C500FD5EED /* sectionView.swift */; };
+		AC78FBF91D1FE5E000FD5EED /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78FBF81D1FE5E000FD5EED /* MenuViewController.swift */; };
+		AC78FBFB1D22C43C00FD5EED /* SingleplayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78FBFA1D22C43C00FD5EED /* SingleplayerViewController.swift */; };
+		AC78FBFD1D22C4D100FD5EED /* BlackHoleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC78FBFC1D22C4D100FD5EED /* BlackHoleController.swift */; };
+		ACD919891CFE4B230062E392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD919881CFE4B230062E392 /* AppDelegate.swift */; };
+		ACD9198B1CFE4B230062E392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9198A1CFE4B230062E392 /* ViewController.swift */; };
+		ACD9198E1CFE4B230062E392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD9198C1CFE4B230062E392 /* Main.storyboard */; };
+		ACD919901CFE4B230062E392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD9198F1CFE4B230062E392 /* Assets.xcassets */; };
+		ACD919931CFE4B230062E392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD919911CFE4B230062E392 /* LaunchScreen.storyboard */; };
+		ACD9199E1CFE4B240062E392 /* Black_holeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9199D1CFE4B240062E392 /* Black_holeTests.swift */; };
+		ACD919A91CFE4B240062E392 /* Black_holeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD919A81CFE4B240062E392 /* Black_holeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD9199A1CFE4B240062E392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD9197D1CFE4B220062E392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD919841CFE4B220062E392;
+			remoteInfo = "Black hole";
+		};
+		ACD919A51CFE4B240062E392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD9197D1CFE4B220062E392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD919841CFE4B220062E392;
+			remoteInfo = "Black hole";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC54DC6E1CFE50B600AB54B7 /* section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = section.swift; sourceTree = "<group>"; };
+		AC54DC701CFE810400AB54B7 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		AC5EE8951D4EBC8A0078F71F /* HowToPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToPlayViewController.swift; sourceTree = "<group>"; };
+		AC78FBF41D1F08C500FD5EED /* sectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sectionView.swift; sourceTree = "<group>"; };
+		AC78FBF81D1FE5E000FD5EED /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		AC78FBFA1D22C43C00FD5EED /* SingleplayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleplayerViewController.swift; sourceTree = "<group>"; };
+		AC78FBFC1D22C4D100FD5EED /* BlackHoleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackHoleController.swift; sourceTree = "<group>"; };
+		ACD919851CFE4B220062E392 /* Black hole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black hole.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD919881CFE4B230062E392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACD9198A1CFE4B230062E392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACD9198D1CFE4B230062E392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD9198F1CFE4B230062E392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD919921CFE4B230062E392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACD919941CFE4B240062E392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD919991CFE4B240062E392 /* Black holeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black holeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD9199D1CFE4B240062E392 /* Black_holeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_holeTests.swift; sourceTree = "<group>"; };
+		ACD9199F1CFE4B240062E392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD919A41CFE4B240062E392 /* Black holeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black holeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD919A81CFE4B240062E392 /* Black_holeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Black_holeUITests.swift; sourceTree = "<group>"; };
+		ACD919AA1CFE4B240062E392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD919821CFE4B220062E392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD919961CFE4B240062E392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD919A11CFE4B240062E392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACD9197C1CFE4B220062E392 = {
+			isa = PBXGroup;
+			children = (
+				ACD919871CFE4B230062E392 /* Black hole */,
+				ACD9199C1CFE4B240062E392 /* Black holeTests */,
+				ACD919A71CFE4B240062E392 /* Black holeUITests */,
+				ACD919861CFE4B220062E392 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD919861CFE4B220062E392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD919851CFE4B220062E392 /* Black hole.app */,
+				ACD919991CFE4B240062E392 /* Black holeTests.xctest */,
+				ACD919A41CFE4B240062E392 /* Black holeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD919871CFE4B230062E392 /* Black hole */ = {
+			isa = PBXGroup;
+			children = (
+				ACD919881CFE4B230062E392 /* AppDelegate.swift */,
+				ACD9198A1CFE4B230062E392 /* ViewController.swift */,
+				AC78FBFA1D22C43C00FD5EED /* SingleplayerViewController.swift */,
+				ACD9198C1CFE4B230062E392 /* Main.storyboard */,
+				ACD9198F1CFE4B230062E392 /* Assets.xcassets */,
+				ACD919941CFE4B240062E392 /* Info.plist */,
+				ACD919911CFE4B230062E392 /* LaunchScreen.storyboard */,
+				AC54DC6E1CFE50B600AB54B7 /* section.swift */,
+				AC54DC701CFE810400AB54B7 /* Board.swift */,
+				AC78FBF41D1F08C500FD5EED /* sectionView.swift */,
+				AC78FBF81D1FE5E000FD5EED /* MenuViewController.swift */,
+				AC78FBFC1D22C4D100FD5EED /* BlackHoleController.swift */,
+				AC5EE8951D4EBC8A0078F71F /* HowToPlayViewController.swift */,
+			);
+			path = "Black hole";
+			sourceTree = "<group>";
+		};
+		ACD9199C1CFE4B240062E392 /* Black holeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD9199D1CFE4B240062E392 /* Black_holeTests.swift */,
+				ACD9199F1CFE4B240062E392 /* Info.plist */,
+			);
+			path = "Black holeTests";
+			sourceTree = "<group>";
+		};
+		ACD919A71CFE4B240062E392 /* Black holeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD919A81CFE4B240062E392 /* Black_holeUITests.swift */,
+				ACD919AA1CFE4B240062E392 /* Info.plist */,
+			);
+			path = "Black holeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD919841CFE4B220062E392 /* Black hole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD919AD1CFE4B240062E392 /* Build configuration list for PBXNativeTarget "Black hole" */;
+			buildPhases = (
+				ACD919811CFE4B220062E392 /* Sources */,
+				ACD919821CFE4B220062E392 /* Frameworks */,
+				ACD919831CFE4B220062E392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Black hole";
+			productName = "Black hole";
+			productReference = ACD919851CFE4B220062E392 /* Black hole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD919981CFE4B240062E392 /* Black holeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD919B01CFE4B240062E392 /* Build configuration list for PBXNativeTarget "Black holeTests" */;
+			buildPhases = (
+				ACD919951CFE4B240062E392 /* Sources */,
+				ACD919961CFE4B240062E392 /* Frameworks */,
+				ACD919971CFE4B240062E392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD9199B1CFE4B240062E392 /* PBXTargetDependency */,
+			);
+			name = "Black holeTests";
+			productName = "Black holeTests";
+			productReference = ACD919991CFE4B240062E392 /* Black holeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACD919A31CFE4B240062E392 /* Black holeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD919B31CFE4B240062E392 /* Build configuration list for PBXNativeTarget "Black holeUITests" */;
+			buildPhases = (
+				ACD919A01CFE4B240062E392 /* Sources */,
+				ACD919A11CFE4B240062E392 /* Frameworks */,
+				ACD919A21CFE4B240062E392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD919A61CFE4B240062E392 /* PBXTargetDependency */,
+			);
+			name = "Black holeUITests";
+			productName = "Black holeUITests";
+			productReference = ACD919A41CFE4B240062E392 /* Black holeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD9197D1CFE4B220062E392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "lithium llamas";
+				TargetAttributes = {
+					ACD919841CFE4B220062E392 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TESGD96EW2;
+					};
+					ACD919981CFE4B240062E392 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ACD919841CFE4B220062E392;
+					};
+					ACD919A31CFE4B240062E392 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = ACD919841CFE4B220062E392;
+					};
+				};
+			};
+			buildConfigurationList = ACD919801CFE4B220062E392 /* Build configuration list for PBXProject "Black hole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD9197C1CFE4B220062E392;
+			productRefGroup = ACD919861CFE4B220062E392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD919841CFE4B220062E392 /* Black hole */,
+				ACD919981CFE4B240062E392 /* Black holeTests */,
+				ACD919A31CFE4B240062E392 /* Black holeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD919831CFE4B220062E392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD919931CFE4B230062E392 /* LaunchScreen.storyboard in Resources */,
+				ACD919901CFE4B230062E392 /* Assets.xcassets in Resources */,
+				ACD9198E1CFE4B230062E392 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD919971CFE4B240062E392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD919A21CFE4B240062E392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD919811CFE4B220062E392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD9198B1CFE4B230062E392 /* ViewController.swift in Sources */,
+				AC78FBF91D1FE5E000FD5EED /* MenuViewController.swift in Sources */,
+				ACD919891CFE4B230062E392 /* AppDelegate.swift in Sources */,
+				AC78FBF51D1F08C500FD5EED /* sectionView.swift in Sources */,
+				AC54DC711CFE810400AB54B7 /* Board.swift in Sources */,
+				AC5EE8961D4EBC8A0078F71F /* HowToPlayViewController.swift in Sources */,
+				AC78FBFD1D22C4D100FD5EED /* BlackHoleController.swift in Sources */,
+				AC78FBFB1D22C43C00FD5EED /* SingleplayerViewController.swift in Sources */,
+				AC54DC6F1CFE50B600AB54B7 /* section.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD919951CFE4B240062E392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD9199E1CFE4B240062E392 /* Black_holeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD919A01CFE4B240062E392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD919A91CFE4B240062E392 /* Black_holeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD9199B1CFE4B240062E392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD919841CFE4B220062E392 /* Black hole */;
+			targetProxy = ACD9199A1CFE4B240062E392 /* PBXContainerItemProxy */;
+		};
+		ACD919A61CFE4B240062E392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD919841CFE4B220062E392 /* Black hole */;
+			targetProxy = ACD919A51CFE4B240062E392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACD9198C1CFE4B230062E392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD9198D1CFE4B230062E392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACD919911CFE4B230062E392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD919921CFE4B230062E392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD919AB1CFE4B240062E392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACD919AC1CFE4B240062E392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD919AE1CFE4B240062E392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Black hole/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lit.blackhole;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		ACD919AF1CFE4B240062E392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = "Black hole/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lit.blackhole;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		ACD919B11CFE4B240062E392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Black holeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Black-holeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black hole.app/Black hole";
+			};
+			name = Debug;
+		};
+		ACD919B21CFE4B240062E392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Black holeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Black-holeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black hole.app/Black hole";
+			};
+			name = Release;
+		};
+		ACD919B41CFE4B240062E392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Black holeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Black-holeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Black hole";
+			};
+			name = Debug;
+		};
+		ACD919B51CFE4B240062E392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Black holeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Black-holeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Black hole";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD919801CFE4B220062E392 /* Build configuration list for PBXProject "Black hole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD919AB1CFE4B240062E392 /* Debug */,
+				ACD919AC1CFE4B240062E392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD919AD1CFE4B240062E392 /* Build configuration list for PBXNativeTarget "Black hole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD919AE1CFE4B240062E392 /* Debug */,
+				ACD919AF1CFE4B240062E392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD919B01CFE4B240062E392 /* Build configuration list for PBXNativeTarget "Black holeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD919B11CFE4B240062E392 /* Debug */,
+				ACD919B21CFE4B240062E392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD919B31CFE4B240062E392 /* Build configuration list for PBXNativeTarget "Black holeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD919B41CFE4B240062E392 /* Debug */,
+				ACD919B51CFE4B240062E392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD9197D1CFE4B220062E392 /* Project object */;
+}
